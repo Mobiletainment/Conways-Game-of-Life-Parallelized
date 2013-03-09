@@ -1,4 +1,4 @@
-Conway-s-Game-of-Life-Parallelized
+Conway's Game of Life Parallelized
 ==================================
 
 Conway's genetic laws computed in parallel with OpenMP and OpenCL.
@@ -24,7 +24,7 @@ How to use?
 ------------
 Examples:
 
-| Key             | Action  |
+| Action          | Example call |
 | --------------: | :-------|
 | Sequential Computation             | gol.exe --load "random10000_in.gol" --generations 250 --save  "random10000_step250_out.gol" |
 | Parallel Computation on CPU with OpenMP      | gol.exe --mode omp --load "random10000_in.gol" --generations 250 --save  "random10000_step250_out_OMP.gol" |
