@@ -4,6 +4,8 @@ Conway-s-Game-of-Life-Parallelized
 Conway's genetic laws computed in parallel with OpenMP and OpenCL.
 With benchmarks for OpenMP, OpenCL (CPU &amp; GPU) as well as sequential execution.
 
+![Screenshot](/docs/Game-Of-Life-Benchmark.png?raw=true)
+
 What is it?
 -----------
 On the basis of a field with living and dead cells, Conway's genetic laws are applied to each cell and its next generation (state) is calculated.
